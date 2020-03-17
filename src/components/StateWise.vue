@@ -40,7 +40,7 @@ export default {
       return cols.map(m => ({ field: m, label: m }));
     },
     chartData: function() {
-      const d = {
+      return {
         labels: this.statewise.map(r => r.States),
         datasets: this.barLabels.map(col => {
           return {
@@ -50,8 +50,6 @@ export default {
           };
         })
       };
-      console.log(d);
-      return d;
     }
   },
   data: function() {
