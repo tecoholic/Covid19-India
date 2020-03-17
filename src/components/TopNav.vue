@@ -25,4 +25,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.navbar {
+  border-top: 4px solid hsl(171, 100%, 41%);
+}
+</style>

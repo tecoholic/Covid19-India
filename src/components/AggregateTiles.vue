@@ -1,14 +1,12 @@
 <template>
-  <div class="section">
-    <div class="tile is-ancestor has-text-centered">
-      <number-tile
-        v-for="metric in aggregates"
-        :key="metric.label"
-        :number="metric.value"
-        :label="metric.label"
-        :bg="metric.style"
-      />
-    </div>
+  <div class="tile is-ancestor has-text-centered">
+    <number-tile
+      v-for="metric in aggregates"
+      :key="metric.label"
+      :number="metric.value"
+      :label="metric.label"
+      :bg="metric.style"
+    />
   </div>
 </template>
 
