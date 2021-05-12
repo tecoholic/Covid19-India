@@ -10,7 +10,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "buefy": "^0.8.13",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "core-js": "^3.6.4",
     "d3": "^5.15.0",
     "papaparse": "^5.1.1",
